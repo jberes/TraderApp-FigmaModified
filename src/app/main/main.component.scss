@@ -1,0 +1,304 @@
+:host {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.row-layout {
+  display: flex;
+}
+.frame-43 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  padding: 32px;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.frame-42 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.frame-41 {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 12px;
+  position: relative;
+  padding: 10px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.frame-40 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 40px;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.frame-25 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.frame-13 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.frame-12 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+}
+.frame-11 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 4px;
+  position: relative;
+}
+.frame-7 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+}
+.frame-6 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  padding: 10px;
+}
+.frame-9 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 8px;
+  position: relative;
+}
+.frame-8 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 4px;
+  position: relative;
+}
+.frame-24 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 40px;
+  position: relative;
+  width: 440px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.frame-23 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.frame-22 {
+  border-color: rgba(255, 255, 255, 0.10000000149011612);
+  border-width: 1px;
+  border-style: solid;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  padding: 10px 16px;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.frame-26 {
+  justify-content: center;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.stocks-3 {
+  background-color: rgba(255, 255, 255, 0.05000000074505806);
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  overflow: hidden;
+  position: relative;
+  padding: 18px 16px;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.frame-37 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.frame-36 {
+  background-color: hsla(var(--ig-error-500));
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  padding: 2px 8px;
+}
+.frame-34 {
+  background-color: hsla(var(--ig-success-500));
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  position: relative;
+  padding: 2px 8px;
+}
+.frame-5 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 40px;
+  position: relative;
+}
+.frame-4 {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 24px;
+  position: relative;
+  width: 382px;
+}
+.frame {
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  height: 502px;
+  align-self: stretch;
+  flex-shrink: 0;
+}
+.input {
+  position: relative;
+  height: max-content;
+  align-self: stretch;
+}
+.button-2 {
+  --igx-button-foreground: #FFFFFFFF;
+  --igx-button-background: hsla(var(--ig-success-500));
+  position: relative;
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.button-3 {
+  --igx-button-foreground: #FFFFFFFF;
+  --igx-button-background: hsla(var(--ig-error-500));
+  position: relative;
+  height: max-content;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--ig-gray-700));
+  position: relative;
+}
+.chip-2 {
+  position: relative;
+  height: max-content;
+}
+.icon-6 {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  color: hsla(var(--ig-gray-700));
+}
+.content {
+  color: #FFFFFFFF;
+  position: relative;
+}
+.text {
+  color: #FFFFFFB2;
+  position: relative;
+}
+.content_2 {
+  color: hsla(var(--ig-success-500));
+  position: relative;
+}
+.hyperlink {
+  color: hsla(var(--ig-info-500));
+  cursor: pointer;
+  position: relative;
+}
+.subtitle-15 {
+  color: hsla(var(--ig-gray-400));
+  position: relative;
+}
+.subtitle-14 {
+  text-align: center;
+  color: #FFFFFFFF;
+  position: relative;
+}
+.apple-inc {
+  color: hsla(var(--ig-gray-500));
+  position: relative;
+}
+.aapl {
+  color: #FFFFFFFF;
+  position: relative;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
+.list {
+  position: relative;
+  align-self: stretch;
+}
+.category-chart {
+  position: relative;
+  align-self: stretch;
+  flex-grow: 1;
+  flex-basis: 0px;
+}
