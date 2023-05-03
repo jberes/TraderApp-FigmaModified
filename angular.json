@@ -77,10 +77,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "trader-app-from-figma-modified:build:production"
+              "browserTarget": "trader-app-from-figma-modified:build:production",
+              "port": 55111
             },
             "development": {
-              "browserTarget": "trader-app-from-figma-modified:build:development"
+              "browserTarget": "trader-app-from-figma-modified:build:development",
+              "port": 55111
             }
           },
           "defaultConfiguration": "development"
@@ -128,6 +130,9 @@
   },
   "defaultProject": "trader-app-from-figma-modified",
   "cli": {
-    "schematicCollections": ["@angular-eslint/schematics"]
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ],
+    "analytics": false
   }
 }

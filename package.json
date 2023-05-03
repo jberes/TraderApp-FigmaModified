@@ -8,6 +8,9 @@
     "test": "ng test",
     "lint": "ng lint"
   },
+  "overrides": {
+    "graceful-fs": "^4.2.10"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~15.0.0",
@@ -18,13 +21,21 @@
     "@angular/platform-browser": "~15.0.0",
     "@angular/platform-browser-dynamic": "~15.0.0",
     "@angular/router": "~15.0.0",
+    "@finos/fdc3": "^2.0.1",
     "core-js": "^3.6.5",
     "hammerjs": "^2.0.8",
     "igniteui-angular": "~15.0.0",
     "igniteui-angular-charts": "~15.0.0",
     "igniteui-angular-core": "~15.0.0",
+    "igniteui-angular-fdc3": "^15.0.1",
     "jszip": "^3.10.0",
     "minireset.css": "~0.0.4",
+    "openfin-cli": "^4.0.0",
+    "openfin-fdc3": "^0.2.3",
+    "@types/openfin": "39.0.1",
+    "openfin-launcher": "^1.4.9",
+    "openfin-layouts": "^1.2.0",
+    "openfin-notifications": "^0.11.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -38,13 +49,13 @@
     "@angular-eslint/template-parser": "^15.0.0",
     "@angular/cli": "~15.0.0",
     "@angular/compiler-cli": "~15.0.0",
+    "@igniteui/angular-schematics": "~15.0.1103",
     "@types/jasmine": "~4.3.0",
     "@types/node": "^12.11.1",
     "@typescript-eslint/eslint-plugin": "5.3.0",
     "@typescript-eslint/parser": "5.3.0",
     "codelyzer": "^6.0.0",
     "eslint": "^8.1.0",
-    "@igniteui/angular-schematics": "~15.0.1103",
     "jasmine-core": "~4.5.0",
     "jasmine-spec-reporter": "~7.0.0",
     "karma": "~6.4.0",
@@ -54,6 +65,7 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "protractor": "~7.0.0",
     "ts-node": "~9.1.1",
-    "typescript": "~4.8.2"
+    "typescript": "~4.8.2",
+    "@types/openfin": "^17.0.5"
   }
 }
